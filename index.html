@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio web responsive</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary border-bottom border-bod px-1">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Carlos Ruiz Zafón</a>
+                <button class="navbar-toggler btn btn-secondary border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon custom-toggler"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="order-2">
+                        <form class="d-flex mt-2 mt-lg-0" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="me-auto mb-2 mb-lg-0 order-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-lg-5">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Obra</a>
+                            </li>
+                            <li class="nav-item px-lg-5">
+                                <a class="nav-link active text-light opacity-50" aria-current="page"
+                                    href="#">Biografía</a>
+                            </li>
+                            <li class="nav-item px-lg-5">
+                                <a class="nav-link active text-light opacity-50" aria-current="page"
+                                    href="#">Curiosidades</a>
+                            </li>
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link active text-light opacity-50" aria-current="page" href="#"
+                                    id="options">Colección</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row text-center my-1 my-lg-5">
+                <div class="col d-none d-lg-block col-lg-8 mx-auto">
+                    <h2>El cementerio de los libros olvidados</h2>
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h4>La felicidad es un regalo que solo unos pocos tienen la suerte de encontrar...</h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>Las vidas sin significado pasan de largo como trenes que no paran en su estación...
+                                </h4>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>Uno acaba convirtiéndose en aquello que ve en los ojos de quienes desea...</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="optionsContainer" class="col d-none d-lg-block col-lg-3">
+                    <ul class="list-group">
+                        <li class="list-group-item"><u>La sombra del viento</u></li>
+                        <li class="list-group-item"><u>El juego del ángel</u></li>
+                        <li class="list-group-item"><u>El prisionero del cielo</u></li>
+                        <li class="list-group-item"><u>El laberinto de los espíritus</u></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row text-justify">
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"Cada libro, cada volumen que ves aquí,
+                            tiene
+                            alma. El alma de quien lo escribió, y el alma de quienes lo leyeron y vivieron y soñaron con
+                            él."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"A veces creemos que hemos enterrado nuestro
+                            pasado, pero es nuestro pasado el que nos entierra a nosotros."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"Cuando alguien no puede más, es porque ya
+                            ha
+                            hecho demasiado tiempo que dejó de tener sentido."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"Los libros son espejos: solo se ve en ellos
+                            lo que uno ya lleva dentro."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"Las palabras son como las hojas de los
+                            árboles, depende de cómo las coloques si dan sol o sombra."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"El pasado no es lo que sucedió, sino lo que
+                            recordamos y cómo lo recordamos."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"Los libros son la mejor arma del tiempo,
+                            extienden la memoria y combaten el olvido."</div>
+                        <div class="col-12 col-md-6 col-lg-4 bg-light mb-3">"El vicio del leer, un vicio solitario y
+                            repleto de sombras, consuela con la misma intensidad que sumerge en la desesperación."</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="scripts/script.js"></script>
+
+</html>
